@@ -10,6 +10,6 @@ import { Title } from '@angular/platform-browser';
 })
 export class NotfoundComponent {
   constructor(private titleService: Title) {
-    this.titleService.setTitle('BC | NotFound')
+    this.titleService.setTitle('NotFound')
   }
 }

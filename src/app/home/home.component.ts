@@ -6,7 +6,9 @@ import { RouterLinkActive, RouterOutlet, RouterLink } from '@angular/router';
   selector: 'app-home',
   standalone: true,
   imports: [
+    RouterOutlet,
     RouterLink,
+    RouterLinkActive
   ],
   templateUrl: './home.component.html',
   styleUrls: [
@@ -18,13 +20,13 @@ import { RouterLinkActive, RouterOutlet, RouterLink } from '@angular/router';
 export class HomeComponent implements OnInit {
 
   dynamicText: string = "";
-  phrases: string[] =[
-    "Team Player.",
+
+  phrases: string[] = [
     "Software Developer.",
-    "Backend Engineer.",
-    "Software Engineer.",
-    "Fullstack Developer.",
+    "Cybersecurity Student.",
+    "Embedded Development.",
     "Code Enthusiast.",
+    "Coffee Enjoyer.",
   ];
 
   currentPhraseIndex: number = 0;
@@ -35,7 +37,7 @@ export class HomeComponent implements OnInit {
   delayBetweenPhrases: number = 2000;
 
   constructor(private titleService: Title) {
-    this.titleService.setTitle('BC | Home')
+    this.titleService.setTitle('DG | Home')
   }
 
 
