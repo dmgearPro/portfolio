@@ -14,7 +14,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/angular-portfolio-app",
-            "index": "/index.html",
+            "index": "index.html",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -95,5 +95,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "b95c8b33-6788-4803-9501-f12b81f0d0f4"
   }
 }
