@@ -32,7 +32,7 @@ export class PortfolioComponent {
       id: 1,
       name: 'Go Chat room',
       summary: 'This is a simple terminal based chat room built using Go. It support mutliple client connections, separate chat rooms, and server roles!',
-      description: '.',
+      description: 'A chat application built in Go that supports multiple chat rooms, with the ability to create unlimited rooms with access restrictions. Users can assign themselves specific chat server roles, and the system efficiently handles multiple client connections simultaneously.',
       projectLink: 'https://github.com/dmgear/go-tcp-chat-server',
       tags: [],
       pictures: [
