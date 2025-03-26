@@ -42,6 +42,19 @@ export class PortfolioComponent {
         "../../assets/gochat_role.png"
       ]
     },
+    {
+      id: 2,
+      name: 'Death Dotter',
+      summary: 'A runelite plugin that hides your character when you are occupy the same location as another character. The purpose of this plugin is for use in PvP situations, where you want to be able to see your opponents character instead of your own.',
+      description: 'This plugin works by drawing a transparent circle around all characters in the local client. There is a minimum threshhold (when the distance between two players is less than or equal to the sum of the two raddi surrounding both characters) that when crossed, the plugin will hide your character. ',
+      projectLink: 'https://github.com/dmgear/deathdotterplugin',
+      tags: [],
+      pictures: [
+        "../../assets/deathdotter_code.png",
+        "../../assets/deathdotter_gif.gif",
+        
+      ]
+    },
     
 
   ]
