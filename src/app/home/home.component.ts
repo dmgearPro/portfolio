@@ -24,7 +24,6 @@ export class HomeComponent implements OnInit {
   phrases: string[] = [
     "Software Developer.",
     "Cybersecurity Student.",
-    "Embedded Development.",
     "Code Enthusiast.",
     "Coffee Enjoyer.",
   ];
